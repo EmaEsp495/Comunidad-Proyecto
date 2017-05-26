@@ -7,22 +7,10 @@ namespace Comunidad
 {
     public class Comunidad
     {
-        private string nombreComunidad;
         private string idetificacion;
+        private string nombreComunidad;
+       
         private string poblacion;
-
-        public string NombreComunidad
-        {
-            get
-            {
-                return nombreComunidad;
-            }
-
-            set
-            {
-                nombreComunidad = value;
-            }
-        }
 
         public string Idetificacion
         {
@@ -34,6 +22,19 @@ namespace Comunidad
             set
             {
                 idetificacion = value;
+            }
+        }
+
+        public string NombreComunidad
+        {
+            get
+            {
+                return nombreComunidad;
+            }
+
+            set
+            {
+                nombreComunidad = value;
             }
         }
 

@@ -9,8 +9,73 @@ namespace Comunidad
     {
         private string tipo;
         private string codigo;
-        int metros;
+        string metros;
         string propietarios;
-        List<string> gastos; 
+        List<string> gastos;
+
+        public string Tipo
+        {
+            get
+            {
+                return tipo;
+            }
+
+            set
+            {
+                tipo = value;
+            }
+        }
+
+        public string Codigo
+        {
+            get
+            {
+                return codigo;
+            }
+
+            set
+            {
+                codigo = value;
+            }
+        }
+
+        public string Metros
+        {
+            get
+            {
+                return metros;
+            }
+
+            set
+            {
+                metros = value;
+            }
+        }
+
+        public string Propietarios
+        {
+            get
+            {
+                return propietarios;
+            }
+
+            set
+            {
+                propietarios = value;
+            }
+        }
+
+        public List<string> Gastos
+        {
+            get
+            {
+                return gastos;
+            }
+
+            set
+            {
+                gastos = value;
+            }
+        }
     }
 }
